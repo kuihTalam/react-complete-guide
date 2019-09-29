@@ -58,7 +58,7 @@ class App extends Component {
               age={person.age}
               key={person.id}
               changed={(event) => this.nameChangedHandler(event, person.id)} />
-          })}
+          } )}
         </div>
       );
       btnClass = classes.Red;
